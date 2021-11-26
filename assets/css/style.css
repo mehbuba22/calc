@@ -1,0 +1,73 @@
+.box{
+     width: 400px;
+     border: 5px solid #000;
+     background: rgb(141,237,242);
+     background: radial-gradient(circle, rgba(141,237,242,1) 0%, rgba(198,245,218,1) 48%, rgba(180,192,232,1) 100%); 
+     box-shadow: 10px 10px 5px gray;
+     
+}
+.box1 {
+    height: 80px;
+    background: white !important;
+    border-left: 1px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.eri p {
+    padding: 5px 0px 0px 5px;
+    color: rgb(86, 249, 255);
+    margin-bottom: 0;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    
+
+}
+.box ul {
+    padding: 10px 30px 2px 15px;
+    
+    
+}
+.box ul li {
+    color: burlywood;
+    list-style-type: none;
+}
+.box ul li p{
+    color: whitesmoke;
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid white;
+    padding-top: 40%;
+    box-shadow: 5px 5px rgb(116, 230, 236);
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.box ul li p:hover{
+    background: cyan;
+    color: black;
+    border-radius: 30%;
+    margin-top: -5px;
+    margin-left: -5px;
+    transition: 0.5s all ease;
+}
+
+.pink {
+    background-color: rgb(115, 224, 115) !important;
+    color: black !important;
+    font-weight: 700;
+    font-size: large;
+}
+.blue {
+    background-color: rgb(54, 225, 231) !important;
+    color:black !important;
+    font-weight: bold;
+}
+.white {
+    background: #fff !important;
+    color: black !important;
+    font-weight: bold;
+}
